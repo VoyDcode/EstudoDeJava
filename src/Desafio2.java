@@ -5,7 +5,7 @@ public class Desafio2 {
         Scanner leitor = new Scanner(System.in);
 
         int numero;
-        int zerosSeguidos = 3;
+        int zerosSeguidos = 0;
         int contadorPositivo = 0;
         int contadorNegativo = 0;
 
@@ -16,7 +16,7 @@ public class Desafio2 {
             if (numero == 0) {
                 zerosSeguidos++;
 
-                if (zerosSeguidos == 4) {
+                if (zerosSeguidos == 1) {
                     System.out.println("Você digitou 4 zeros. Programa encerrado.");
                     break;
                 }
